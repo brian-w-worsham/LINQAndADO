@@ -91,8 +91,7 @@ namespace AdoNetDemoApp
             Console.WriteLine();
             Console.WriteLine();
 
-            var toLookUpMS = Student.GetStudents()
-                 .ToLookup(s => s.Branch);
+            var toLookUpMS = Student.GetStudents().ToLookup(s => s.Branch);
 
             var toLookUpQS = (from std in Student.GetStudents()
                               select std).ToLookup(x => x.Branch);

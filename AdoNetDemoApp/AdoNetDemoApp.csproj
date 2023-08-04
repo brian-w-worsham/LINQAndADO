@@ -50,6 +50,7 @@
     <Compile Include="Employee.cs" />
     <Compile Include="FilteringInLINQ.cs" />
     <Compile Include="FirstLINQApp.cs" />
+    <Compile Include="GroupByOperatorInLINQ.cs" />
     <Compile Include="OrderingInLINQ.cs" />
     <Compile Include="PartitioningInLINQ.cs" />
     <Compile Include="Program.cs" />
